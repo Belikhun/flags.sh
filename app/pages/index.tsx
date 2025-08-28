@@ -167,7 +167,7 @@ function Home({ environmentTabs, flagSelectors }: HomeProps) {
                                         <IconTool />
                                     </ActionIcon>
                                 }>
-                                    <MarkedSlider interval={4} step={0.5} min={0.5} max={24} value={memory} thumbLabel="Memory allocation slider" label={value => {
+                                    <MarkedSlider interval={8} step={0.5} min={0.5} max={48} value={memory} thumbLabel="Memory allocation slider" label={value => {
                                         return `${value.toFixed(1)} GB`;
                                     }} intervalLabel={value => {
                                         return `${value} GB`;
